@@ -1,0 +1,445 @@
+// Used Bootstrap-4 along with HTML.
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Website</title>
+    <meta chatset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link rel="stylesheet" type="text/css" href="project_dev.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    <header class="head">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <p class="nav-brand">DEPARTMENTAL STORE</p><br>
+               
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="loginPage.html">Login</a></li>
+                    <li class="nav-item">
+                            <div class="dropdown">
+                                    <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+                                      Menu
+                                    </button>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item dropdown" href="#">Home</a>
+                                      <a class="dropdown-item dropdown" href="#">Jobs</a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                        <li class="nav-item">
+                        <div class="dropdown dropright">           
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Contact</button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item dropdown" href="#">Phone</a>
+                                            <a class="dropdown-item dropdown" href="https://mail.google.com/path">E-Mail</a>
+                                            <a class="dropdown-item dropdown" href="https://instagram.google.com/path">Instagram</a>
+                                            <a class="dropdown-item dropdown" href="https://facebook.google.com/path">Facebook</a>
+                                         </div>
+                                    
+                                     </div>
+                                    </li>
+                                  
+
+                    
+
+                </ul>
+               
+                <form class="form-inline ml-auto" action="/_blank" >
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="submit" name="searchButton">Search</button>
+                
+                </form>
+             </nav>
+    </header>
+
+             <div class="row container-fluid"><h5 id="backtotop"></h5>
+                    <div class="col-md"><a href="#choco" class="text-muted">Chocolates</a></div>
+                    <div class="col-md"><a href="#cold-drinks" class="text-muted">Cold-Drinks</a></div>
+                  
+                   <div class="col-md dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                Snacks
+                              </button>
+                              <div class="dropdown-menu">
+                               
+                                      <a class="dropdown-item dropdown" href="#namkeen">Namkeens</a>
+                                      <a class="dropdown-item dropdown" href="#biscuits">Biscuits</a>
+                                      <a class="dropdown-item dropdown" href="#frozen-foods">Frozen Food</a>
+                                      <a class="dropdown-item dropdown" href="#ice-creams">Ice Creams</a>
+                                   </div>
+
+                   </div>
+                   <div class="col-md dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                Fragrances
+                              </button>
+                              <div class="dropdown-menu">
+                               
+                                      <a class="dropdown-item dropdown" href="#">Perfumes(Men)</a>
+                                      <a class="dropdown-item dropdown" href="#">Imported Perfumes</a>
+                                      <a class="dropdown-item dropdown" href="#">Deodrants</a>
+                                      <a class="dropdown-item dropdown" href="#">Perfumes(Women)</a>
+                                   </div>
+
+
+                   </div>
+                   <div class="col-md dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                Grains
+                              </button>
+                              <div class="dropdown-menu">
+                               
+                                      <a class="dropdown-item dropdown" href="#">Rice</a>
+                                      <a class="dropdown-item dropdown" href="#">Wheat</a>
+                                      <a class="dropdown-item dropdown" href="#">Pulses</a>
+                                      <a class="dropdown-item dropdown" href="#">Oats</a>
+                                   </div>
+
+
+
+
+                   </div>
+                   <div class="col-md dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                                Toys
+                              </button>
+                              <div class="dropdown-menu">
+                               
+                                      <a class="dropdown-item dropdown" href="#">Age 0-5</a>
+                                      <a class="dropdown-item dropdown" href="#">Age 6-10</a>
+                                      <a class="dropdown-item dropdown" href="#">Age 11-15</a>
+                                      <a class="dropdown-item dropdown" href="#">Age 16-18</a>
+                                   </div>
+
+
+
+                   </div>
+                   <div class="col-md"><a href="#choco" class="text-muted">Dry-Fruits</a></div>
+                   
+                   
+
+                </div>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="dep4.jpg" alt="Bucket">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="dep1.jpg" alt="Store">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="dep3.jpg" alt="Billing">
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
+                      </div>
+
+            <div class="scroll">
+                <h4><div class="spinner-grow text-success"></div>Welcome! Login for <strong>Discounts</strong></h4>
+                <div class="scroll">
+                    <h6>Prices are <strong>subject to change</strong></h6>
+                </div>
+            </div><br><hr>
+             <h2 id="choco"><div class="spinner-grow text-success"></div>Chocolates<h6><a class="text-muted backtobar" href="#backtotop ">Buy Other Products</a></h6></h2>
+             <div class="container">
+       <table class="table table-striped table-bordered">
+           <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price(INR)</th>
+                    <th>Quantity</th>
+                    <th>Stock</th>
+                    <th>Add To Cart</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dairy Milk</td>
+                        <td>100</td>
+                        <td><input type="number"></td>
+                        <td>1323</td>
+                        <td><a href="#" action="/_blank">BUY</a></td>
+                 </tr>
+
+
+                 <tr>
+                        <td>Snickers</td>
+                        <td>75</td>
+                        <td><input type="number"></td>
+                        <td>833</td>
+                        <td><a href="#" action="/_blank">BUY</a></td>
+                 </tr>
+                 <tr>
+                        <td>Galaxy</td>
+                        <td>200</td>
+                        <td><input type="number"></td>
+                        <td>893</td>
+                        <td><a href="#" action="/_blank">BUY</a></td>
+                 </tr>
+                </tbody>
+
+
+           
+
+       </table>
+       <br><hr>
+       <h2 id="cold-drinks"><div class="spinner-grow text-success"></div>Cold-Drinks<h6><a class="text-muted" href="#backtotop ">Buy Other Products</a></h6></h2>
+<table class="table table-striped table-bordered">
+        <thead>
+             <tr>
+                 <th>Item Name</th>
+                 <th>Price(INR)</th>
+                 <th>Quantity</th>
+                 <th>Stock</th>
+                 <th>Add To Cart</th>
+             </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>Coca Cola(2L)</td>
+                     <td>100</td>
+                     <td><input type="number"></td>
+                     <td>132</td>
+                     <td><a href="#" action="/_blank">BUY</a></td>
+              </tr>
+
+
+              <tr>
+                     <td>Sprite(2L)</td>
+                     <td>95</td>
+                     <td><input type="number"></td>
+                     <td>123</td>
+                     <td><a href="#" action="/_blank">BUY</a></td>
+              </tr>
+              <tr>
+                     <td>Mirinda(2L)</td>
+                     <td>90</td>
+                     <td><input type="number"></td>
+                     <td>129</td>
+                     <td><a href="#" action="/_blank">BUY</a></td>
+              </tr>
+             </tbody>
+            </table>
+
+<hr>
+
+<br><hr>
+<h2 id="namkeen"><div class="spinner-grow text-success"></div>Namkeen<h6><a class="text-muted" href="#backtotop ">Buy Other Products</a></h6></h2>
+<table class="table table-striped table-bordered">
+ <thead>
+    <tr>
+        <th>Item Name</th>
+          <th>Price(INR)</th>
+          <th>Quantity</th>
+          <th>Stock</th>
+          <th>Add To Cart</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Haldiram Aloo Bhujia</td>
+              <td>80</td>
+              <td><input type="number"></td>
+              <td>2342</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+
+
+       <tr>
+              <td>Nut Cracker</td>
+              <td>75</td>
+              <td><input type="number"></td>
+              <td>4212</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+       <tr>
+              <td>Punjabi Tadka</td>
+              <td>90</td>
+              <td><input type="number"></td>
+              <td>7187</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+      </tbody>
+     </table>
+
+
+
+<br><hr>
+
+<h2 id="biscuits"><div class="spinner-grow text-success"></div>Biscuits<h6><a class="text-muted" href="#backtotop ">Buy Other Products</a></h6></h2>
+<table class="table table-striped table-bordered">
+ <thead>
+      <tr>
+          <th>Item Name</th>
+          <th>Price(INR)</th>
+          <th>Quantity</th>
+          <th>Stock</th>
+          <th>Add To Cart</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>GoodDay</td>
+              <td>30</td>
+              <td><input type="number"></td>
+              <td>5134</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+
+
+       <tr>
+              <td>Parle-G</td>
+              <td>20</td>
+              <td><input type="number"></td>
+              <td>3134</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+       <tr>
+              <td>Unibic Cookies</td>
+              <td>50</td>
+              <td><input type="number"></td>
+              <td>4531</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+      </tbody>
+     </table>
+
+<br><hr>
+
+
+
+<h2 id="frozen-foods"><div class="spinner-grow text-success"></div>Frozen-Foods<h6><a class="text-muted" href="#backtotop ">Buy Other Products</a></h6></h2>
+<table class="table table-striped table-bordered">
+ <thead>
+      <tr>
+          <th>Item Name</th>
+          <th>Price(INR)</th>
+          <th>Quantity</th>
+          <th>Stock</th>
+          <th>Add To Cart</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Mcain Fries</td>
+              <td>200</td>
+              <td><input type="number"></td>
+              <td>1022</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+
+
+       <tr>
+              <td>Mcain Smilies</td>
+              <td>150</td>
+              <td><input type="number"></td>
+              <td>903</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+     
+      </tbody>
+     </table>
+
+<hr>
+<h2 id="ice-creams"><div class="spinner-grow text-success"></div>Ice-Creams<h6><a class="text-muted" href="#backtotop ">Buy Other Products</a></h6></h2>
+<table class="table table-striped table-bordered">
+ <thead>
+      <tr>
+          <th>Item Name</th>
+          <th>Price(INR)</th>
+          <th>Quantity</th>
+          <th>Stock</th>
+          <th>Add To Cart</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Raj Bhog(1kg)</td>
+              <td>300</td>
+              <td><input type="number"></td>
+              <td>9</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+
+
+       <tr>
+              <td>Choco Chip(1kg)</td>
+              <td>290</td>
+              <td><input type="number"></td>
+              <td>13</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+       <tr>
+              <td>Butterscotch(1kg)</td>
+              <td>200</td>
+              <td><input type="number"></td>
+              <td>12</td>
+              <td><a href="#" action="/_blank">BUY</a></td>
+       </tr>
+      </tbody>
+     </table>
+
+<hr>
+
+
+
+
+
+   </div>
+
+   
+   
+   
+   
+   
+  <h1 style="margin-left: 50px; font-family: cursive;"> YET UNDER CONSTRUCTION...
+</h1>   
+   <footer class="footer">
+        <div class="jumbotron">
+            <p>&copy; 2019-20 Departmental Store</p>
+            <address>XYZ, South West Delhi, New Delhi, India</address>
+        </div>
+        
+
+
+
+    </footer>
+    
+    
+    
+    
+
+    
+    
+    
+    
+    <script>
+    
+    
+    
+    </script>
+    </body>
+</html>

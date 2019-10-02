@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-brand{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: greenyellow;
+
+
+}
+.navbar-nav{
+    font-size: 20px;
+    
+
+}
+#choco{
+
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 60px;
+    font-family: fantasy;
+
+}
+.row{
+
+    border-bottom: 2px solid black;
+
+
+}
+.row:nth-child(odd){
+    background-color: rosybrown;
+}
+#cold-drinks{
+
+    text-align: left;
+    margin-top:15px;
+    font-family: fantasy;
+
+}
+ 
+.scroll h4{
+    height: 30px;
+    font-size: 2em;
+    color: red;
+    margin: 3px;
+    line-height: 50px;
+    text-align: center;
+    animation: scroll 15s linear infinite;
+}
+@keyframes scroll{
+    0%{
+        transform: translate(100%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+.scroll h6{
+    line-height: 20px;
+    font-size:1em;
+    color: darkgoldenrod;
+    text-align: center;
+    animation: scroll 20s linear infinite;
+    margin-top: 20px;
+
+}
+@keyframes scroll {
+    0%{
+        transform: translate(100%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+
+.footer{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-display: block;
+    font-family: cursive;
+    color: black;
+}
+#namkeen{
+    text-align: left;
+    margin-top:15px;
+    font-family: fantasy;
+
+}
+#frozen-foods{
+    text-align: left;
+    margin-top:15px;
+    font-family: fantasy;
+
+}
+#ice-creams{
+    text-align: left;
+    margin-top:15px;
+    font-family: fantasy;
+
+}
+#biscuits{
+    text-align: left;
+    margin-top:15px;
+    font-family: fantasy;
+
+}
+.carosuel slide{
+    align-content: center;
+    object-fit: cover;
+
+
+}
+img{
+    width: 1300px;
+    height:400px;
+    object-fit: cover;
+}
+.backtobar{
+    margin-left: 75px;
+
+}
